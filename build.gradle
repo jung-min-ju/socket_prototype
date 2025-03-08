@@ -30,6 +30,8 @@ dependencies {
 
     testCompileOnly 'org.projectlombok:lombok:1.18.36' //테스트 에서 컴파일 시 롬복 사용
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.36' //테스트 에서 롬복 자동 생성
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis' //redis
 }
 
 tasks.named('test') {
